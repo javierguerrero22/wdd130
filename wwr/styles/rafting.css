@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); */
 
 :root {
     --primary-color: #7C5421;
@@ -52,18 +52,17 @@ nav .links li a {
     color: var(--accent2-color);
     font-weight: bold;
     border-bottom: 2px solid var(--accent1-color);
-    border-left: 1px solid var(--accent1-color);
+    border-left: 1px solid var(--accent1-color); /* I tried to combine both bottom and left but it does not want to do it, so i did it thus*/
     box-shadow: 0 0 10px var(--secondary-color);
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    /* text-align: center; */
     color: var(--accent2-color);
     font-weight: 700;
     top: 20px;
     left: 425px;
     position: absolute;
-    text-shadow: 
+    text-shadow: /* I researched how to do it */
         -3px -1px 0 #000,  
          2px -1px 0 #000,
          -1px  1px 0 #000,
@@ -92,7 +91,6 @@ article {
     background-color: var(--accent3-color);
     color: var(--secondary-color);
     padding-left: 20px;
-    margin: 20px #28464B;
 }
 .hero article img {
     float: right;
@@ -115,7 +113,6 @@ footer {
     clear: both;
 }
 footer nav {
-    list-style-type: none;
     padding: 0;
     margin: 10px 0;
     display: flex;
