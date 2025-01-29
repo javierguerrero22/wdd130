@@ -47,7 +47,7 @@ nav .links li {
 }
 
 nav .links li a {
-    font-family: 'fira sans' sans-serif;
+    font-family: 'fira sans', sans-serif;
     text-decoration: underline var(--accent2-color);
     color: var(--accent2-color);
     font-weight: bold;
